@@ -1,0 +1,5 @@
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\NicClass\NicClass\bin\Debug\NicClass.dll
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\NicClass\NicClass\bin\Debug\NicClass.pdb
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\NicClass\NicClass\obj\Debug\NicClass.csprojResolveAssemblyReference.cache
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\NicClass\NicClass\obj\Debug\NicClass.dll
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\NicClass\NicClass\obj\Debug\NicClass.pdb

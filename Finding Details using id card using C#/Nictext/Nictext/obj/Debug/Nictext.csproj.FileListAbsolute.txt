@@ -1,0 +1,5 @@
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\Nictext\Nictext\obj\Debug\Nictext.csprojResolveAssemblyReference.cache
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\Nictext\Nictext\bin\Debug\Nictext.dll
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\Nictext\Nictext\bin\Debug\Nictext.pdb
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\Nictext\Nictext\obj\Debug\Nictext.dll
+C:\Users\Aishwakie\Desktop\2018ICT71(ICA1)\Nictext\Nictext\obj\Debug\Nictext.pdb
