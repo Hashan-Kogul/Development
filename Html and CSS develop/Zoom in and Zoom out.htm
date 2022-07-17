@@ -1,0 +1,66 @@
+<html>
+<head>
+</head>
+<body>
+	<img src="dog1.jpg" width="100" height="100" alt="dog1">
+	<img src="dog2.jpg" width="100" height="100" alt="dog2">
+	<img src="dog3.jpg" width="100" height="100" alt="dog4">
+	<br>
+	<button onclick="changeSize200x200()">changeSize200x200</button>
+	<button onclick="putSameImage()">same image for all</button>
+	<button onclick="zoomIn()">Zoomin</button>
+	<button onclick="zoomOut()">Zoomout</button>
+<script>
+function changeSize200x200()
+{	
+	for(var i=0;i<document.images.length;i++)
+	{
+	document.images[i].height=200;
+			
+	document.images[i].width=200;
+	}
+}
+
+function putSameImage()
+{
+	for(var i=0;document.images.length;i++)
+	{
+		document.images[i].src="dog1.jpg";
+	}
+}
+var mywidth=100;
+var myheigth=100;
+var zoomin=1;
+var zoomout=1;
+var zoomscale=10;
+
+function zoomIn()
+{
+	zoomout=1;
+	myheigth=myheigth-zoomscale*zoomin;
+	mywidth=mywidth-zoomscale*zoomin;
+	for(var i=0;i<document.images.length;i++)
+	{
+		document.images[i].height=myheigth;
+		document.images[i].width=mywidth;
+	}
+	zoomin++;
+}
+
+function zoomOut()
+{
+	zoomin=1;
+	myheigth=myheigth+zoomscale*zoomout;
+	mywidth=mywidth+zoomscale*zoomout;
+	for(var i=0;i<document.images.length;i++)
+	{
+		document.images[i].height=myheigth;
+		document.images[i].width=mywidth;
+	}
+	zoomout++;
+}
+</script>
+	
+	 
+</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+.bg{
+	background-color:f2f2f2;
+	padding:10px 10px 10px 10px;
+	border-radius:5px;
+}
+legend
+{
+color:blue;
+font-size:20px;
+
+}
+.box
+{
+	width:100%;
+	height:5%;
+	
+}
+.a{
+width:100%;
+rows:15;
+}
+.b
+{
+	background-color:#4CAF50;
+}
+
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+<fieldset>
+<legend>Feedback</legend>
+<div class="bg">
+<label for="f_name">First Name:</label>
+<br>
+<input class="box" type="text" id="f_name" name="f_name" placeholder="Enter a name.."><br>
+<label for="email">E-mail</label>
+<br>
+<input class="box" type="email" id="email" name="email" placeholder="Enter a e_mail.."><br>
+<label for="district">District</label><br>
+<select class="box" id="district" name="district">
+	<option value="ampara">Ampara</option>
+	<option value="colombo">Colombo</option>
+	<option value="galle">Galle</option>
+	<option value="nuwarawliya">Nuwara-Eliya</option>
+	<option value="trinco">Trinco</option>
+</select><br>
+<label for="subject">Subject</label><br>
+<textarea class="a" name="message" id="subject" rows="10" placeholder="Write Comments..">
+</textarea><br><br>
+<input class="b" type="submit"><br>
+<button type="button">clk me</button><br>
+<input type="radio" id="html" name="language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="python" name="language" value="PYTHON">
+<label for="python">PYTHON</label><br>
+<input type="checkbox" id="bmw" name="car" value="BMW">
+<label for="bmw">BMW</label><br>
+<input type="checkbox" id="honda" name="car" value="HONDA">
+<label for="honda">HONDA</label><br>
+<input type="checkbox" id="ht" name="car" value="HT">
+<label for="ht">HT</label><br>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
